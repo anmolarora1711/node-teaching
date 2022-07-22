@@ -1,3 +1,3 @@
 module.exports.list = (req, res) => {
-    res.send('users list');
+    return res.send('users list');
 };
